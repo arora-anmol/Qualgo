@@ -1,3 +1,4 @@
+"""
 import pickle
 import os
 import twitter
@@ -31,4 +32,4 @@ def company_trend(topic):
     return search_results, statuses
 
 search_results, statuses = company_trend("Yahoo")
-
+"""

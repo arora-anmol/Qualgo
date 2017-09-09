@@ -1,5 +1,6 @@
 import twitter_helper
 
+
 def calculate_score(company_name):
     tweets = search_tweets(company_name)
     num = 0
@@ -9,7 +10,6 @@ def calculate_score(company_name):
 
 
 def search_tweets(search_term):
-    res = twitter_helper.company_trend(search_term)
     return []
 
 
